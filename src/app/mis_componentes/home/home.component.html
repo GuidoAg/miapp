@@ -1,1 +1,29 @@
-<p>home works!</p>
+<section>
+    <form>
+      <input type="text" placeholder="Filter by city">
+      <button class="primary" type="button">Search</button>
+    </form>
+<br>
+<h1>Calculadora de Edades</h1>
+
+<form>
+  <label>Edad 1:</label>
+  <input type="number" [(ngModel)]="edadUno" name="edadUno">
+
+  <label>Edad 2:</label>
+  <input type="number" [(ngModel)]="edadDos" name="edadDos">
+
+  <br><br>
+
+  <button type="button" (click)="calcular()">Calcular</button>
+  <button type="button" (click)="limpiar()">Limpiar</button>
+
+  <br><br>
+
+  <label>Suma:</label>
+  <input type="number" [value]="suma" readonly>
+
+  <label>Promedio:</label>
+  <input type="number" [value]="promedio" readonly>
+</form>
+  </section>
