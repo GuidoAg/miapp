@@ -3,3 +3,21 @@
     --primary-color: #1976d2;
   }
   
+  // body {
+  //   background-color: #2dc9bc; // Cambialo por el color que quieras
+  //   margin: 0;
+  //   font-family: sans-serif;
+  // }
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('/fondo.jpg'); // Asegurate que la imagen esté en src/assets
+    background-size: cover;         // La imagen cubre toda la pantalla
+    background-repeat: no-repeat;   // No se repite
+    background-position: center;    // Centrada
+    font-family: sans-serif;
+  }
+  
+  

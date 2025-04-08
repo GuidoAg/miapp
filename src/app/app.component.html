@@ -2,8 +2,20 @@
   <header class="brand-name">
     <img src="/logo.svg" alt="logo" class="brand-logo" aria-hidden="true">
   </header>
+
+  <br>
+  <br>
+
+  <nav>
+    <a routerLink="/">Inicio</a> |
+    <a routerLink="/login">Login</a> |
+    <a routerLink="/otra">Ruta inválida</a>
+  </nav>
+
+  <br>
+  <br>
+
   <section class="content">
-    <app-home></app-home>
+    <router-outlet></router-outlet>
   </section>
 </main>
-

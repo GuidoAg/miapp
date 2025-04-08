@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-bienvenido',
   imports: [FormsModule],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  templateUrl: './bienvenido.component.html',
+  styleUrl: './bienvenido.component.scss'
 })
-export class HomeComponent {
+export class BienvenidoComponent {
   edadUno: number = 0;
   edadDos: number = 0;
   suma: number = 0;
@@ -25,3 +25,4 @@ export class HomeComponent {
     this.promedio = 0;
   }
 }
+
